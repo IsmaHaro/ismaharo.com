@@ -1,100 +1,220 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="en-US">
+<head>
 
-        <title>Laravel</title>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Isma Haro el mejor SEO de Mexico" />
+	<meta name="author" content="Isma Haro" />
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+	<!-- Title -->
+	<title>Isma Haro - Search Engine Optimization</title>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
 
-            .full-height {
-                height: 100vh;
-            }
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/jarallax.css" />
+	<link rel="stylesheet" href="css/swiper.css" />
+	<link rel="stylesheet" href="css/fontawesome.css" />
+	<link rel="stylesheet" href="css/brands.css" />
+	<link rel="stylesheet" href="css/solid.css" />
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+	<!-- Theme Colors
+	<link rel="stylesheet" href="css/theme-colors/blue.css" />
+	<link rel="stylesheet" href="css/theme-colors/green.css" />
+	<link rel="stylesheet" href="css/theme-colors/orange.css" />
+	<link rel="stylesheet" href="css/theme-colors/brown.css" />
+	<link rel="stylesheet" href="css/theme-colors/purple.css" />
+	<link rel="stylesheet" href="css/theme-colors/red.css" />
+	<link rel="stylesheet" href="css/theme-colors/beige.css" />
+	<link rel="stylesheet" href="css/theme-colors/green_light.css" />
+	<link rel="stylesheet" href="css/theme-colors/yellow.css" />
+	<link rel="stylesheet" href="css/theme-colors/yellow_light.css" />
+	-->
 
-            .position-ref {
-                position: relative;
-            }
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
 
-            .content {
-                text-align: center;
-            }
+</head>
 
-            .title {
-                font-size: 84px;
-            }
+<body class="home">
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
+	<!-- Container -->
+	<div class="container">
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+		<!-- Cursor -->
+		<div class="cursor-follower"></div>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    ISMA HARO
-                </div>
+		<!-- Header -->
+		<header class="header">
+			<div class="head-top">
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
+				<!-- menu button -->
+				<!--<a href="#" class="menu-btn"><span></span></a>-->
+
+				<!-- logo -->
+				<div class="logo hover-masks-logo">
+					<a href="#">
+						<span class="">Isma <strong>Haro</strong></span>
+					</a>
+				</div>
+
+				<!-- top menu -->
+				<!--<div class="top-menu hover-masks">-->
+				<!--	<div class="top-menu-nav">-->
+				<!--		<div class="menu-topmenu-container">-->
+				<!--			<ul class="menu">-->
+				<!--				<li class="menu-item menu-item-has-children current-menu-item">-->
+				<!--					<a href="index.html">Home</a>-->
+				<!--					<ul class="sub-menu">-->
+				<!--						<li class="menu-item current-menu-item"><a href="index.html">Home Default</a></li>-->
+				<!--						<li class="menu-item"><a href="index_creative.html">Home Creative</a></li>-->
+				<!--						<li class="menu-item"><a href="index_slider.html">Home Slider</a></li>-->
+				<!--						<li class="menu-item"><a href="index_personal.html">Home Personal</a></li>-->
+				<!--						<li class="menu-item"><a href="index_onepage.html" target="blank">Home OnePage</a></li>-->
+				<!--						<li class="menu-item"><a href="index_image.html">Home Image</a></li>-->
+				<!--						<li class="menu-item"><a href="index_video.html">Home Video</a></li>-->
+				<!--					</ul>-->
+				<!--				</li>-->
+				<!--				<li class="menu-item menu-item-has-children">-->
+				<!--					<a href="resume.html">Resume</a>-->
+				<!--					<ul class="sub-menu">-->
+				<!--						<li class="menu-item"><a href="resume.html">Resume Default</a></li>-->
+				<!--						<li class="menu-item"><a href="resume_image.html">Resume Image</a></li>-->
+				<!--						<li class="menu-item"><a href="resume_creative.html">Resume Creative</a></li>-->
+				<!--					</ul>-->
+				<!--				</li>-->
+				<!--				<li class="menu-item menu-item-has-children">-->
+				<!--					<a href="works.html">Works</a>-->
+				<!--					<ul class="sub-menu">-->
+				<!--						<li class="menu-item"><a href="works.html">Works Default</a></li>-->
+				<!--						<li class="menu-item"><a href="works_creative.html">Works Creative</a></li>-->
+				<!--						<li class="menu-item"><a href="work_single.html">Work Single</a></li>-->
+				<!--						<li class="menu-item"><a href="work_single_image.html">Work Single Image</a></li>-->
+				<!--						<li class="menu-item"><a href="work_single_creative.html">Work Single Creative</a></li>-->
+				<!--					</ul>-->
+				<!--				</li>-->
+				<!--				<li class="menu-item menu-item-has-children">-->
+				<!--					<a href="contacts.html">Contact</a>-->
+				<!--					<ul class="sub-menu">-->
+				<!--						<li class="menu-item"><a href="contacts.html">Contact Default</a></li>-->
+				<!--						<li class="menu-item"><a href="contacts_map.html">Contact Map</a></li>-->
+				<!--						<li class="menu-item"><a href="contacts_image.html">Contact Image</a></li>-->
+				<!--						<li class="menu-item"><a href="contacts_creative.html">Contact Creative</a></li>-->
+				<!--					</ul>-->
+				<!--				</li>-->
+				<!--			</ul>-->
+				<!--		</div>-->
+				<!--	</div>-->
+				<!--</div>-->
+
+			</div>
+		</header>
+
+		<!-- Wrapper -->
+		<div class="wrapper">
+
+			<!-- Section Started -->
+			<div class="section started" id="section-started">
+
+				<!-- background -->
+				<div class="video-bg">
+					<div class="video-bg-mask"></div>
+					<div class="video-bg-texture" id="grained_container"></div>
+				</div>
+
+				<!-- started content -->
+				<div class="centrize full-width">
+					<div class="vertical-center">
+						<div class="started-content">
+							<h1 class="h-title">
+								Hola soy <strong>Isma Haro</strong> el mejor SEO de México <br />
+								Google Expert SEO & SEM
+							</h1>
+							<div class="h-subtitle typing-subtitle">
+								<p>Desarrollo <strong>Sitios Web</strong></p>
+								<p>Posiciono Sitios en <strong>Google</strong></p>
+								<p>Hago las mejores Campañas en <strong>Google Ads</strong></p>
+							</div>
+							<span class="typed-subtitle"></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="copy">
+				<p>
+                    E: isma@capmega.com
+                </p>
+			</div>
+			<div class="soc-box">
+				<div class="follow-label">Sígueme</div>
+				<div class="soc">
+					<a target="_blank" href="https://www.instagram.com/isma.haro/">
+						<span class="icon fab fa-instagram"></span>
+					</a>
+					<a target="_blank" href="https://www.facebook.com/isma.haro.seo">
+						<span class="icon fab fa-facebook"></span>
+					</a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</footer>
+
+		<!-- Lines -->
+		<div class="lines">
+			<div class="content">
+				<div class="line-col"></div>
+				<div class="line-col"></div>
+				<div class="line-col"></div>
+				<div class="line-col"></div>
+				<div class="line-col"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/simpleParallax.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/jarallax.js"></script>
+	<script src="js/jarallax-video.js"></script>
+	<script src="js/jarallax-element.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/grained.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
 </html>

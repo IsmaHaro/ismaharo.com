@@ -85,11 +85,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="head-top">
 
 				<!-- menu button -->
-				<!--<a href="#" class="menu-btn"><span></span></a>-->
+				<a href="#" class="menu-btn"><span></span></a>
 
 				<!-- logo -->
 				<div class="logo hover-masks-logo">
-					<a href="#">
+					<a href="/">
 						<span class="">Isma <strong>Haro</strong></span>
 					</a>
 				</div>

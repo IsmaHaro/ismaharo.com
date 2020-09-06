@@ -13,6 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+//
+//
+//Route::get('/contacto', function () {
+//    return phpinfo();
+//});
+
+
+Route::get('/'                   , 'WebController@main');
+Route::get('/contacto'           , 'WebController@contact');
+Route::post('/guardar-formulario', 'WebController@saveContact');
+
+
+
+
+
+
+

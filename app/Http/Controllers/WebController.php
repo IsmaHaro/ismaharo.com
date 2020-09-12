@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Contact;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
 
 class WebController extends Controller
 {
@@ -35,9 +37,14 @@ class WebController extends Controller
         $contact->email   = $email;
         $contact->save();
 
-         /*
-          * 3. Return succesfull view
-          */
-         return view('thank-you');
+        /*
+         * 3. Vamos a enviar un email
+         */
+        Mail::to('ismaharo18@gmail.com')->send(new ContactMail($contact));
+
+        /*
+         * 4. Return succesfull view
+         */
+        return view('thank-you');
     }
 }

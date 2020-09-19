@@ -47,4 +47,9 @@ class WebController extends Controller
          */
         return view('thank-you');
     }
+
+    public function sitemap()
+    {
+        return view('sitemap');
+    }
 }

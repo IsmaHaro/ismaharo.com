@@ -25,11 +25,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/'                   , 'WebController@main');
 Route::get('/contacto'           , 'WebController@contact');
+Route::get('/mapa-del-sitio'     , 'WebController@sitemap');
 Route::post('/guardar-formulario', 'WebController@saveContact');
-
-
-
-
-
-
-

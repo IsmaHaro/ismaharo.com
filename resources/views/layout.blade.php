@@ -118,7 +118,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<footer class="footer">
 			<div class="copy">
 				<p>
-                    E: isma@capmega.com
+                    <a href="mailto:isma@capmega.com">isma@capmega.com</a>
+                    <br>
+                    <a href="/mapa-del-sitio">Mapa del Sitio</a>
                 </p>
 			</div>
 			<div class="soc-box">

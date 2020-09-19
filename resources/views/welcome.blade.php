@@ -18,8 +18,8 @@
         <div class="vertical-center">
             <div class="started-content">
                 <h1 class="h-title">
-                    Hola soy <strong>Isma Haro</strong> el mejor SEO de México <br />
-                    Google Expert SEO & SEM
+                    Soy <strong>Isma Haro</strong> el mejor SEO de México <br />
+                    Google Expert en servicios de SEO y SEM
                 </h1>
                 <div class="h-subtitle typing-subtitle">
                     <p>Desarrollo <strong>Sitios Web</strong></p>

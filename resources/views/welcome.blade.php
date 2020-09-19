@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title')
-    Titulo de inicio
-@endsection
+@section('title', 'El mejor SEO de México | Posiciono tu Sitio Web en Google')
+
+@section('meta_description', 'Si buscas posicionar tu sitio web en Google, tengo para ti la solución perfecta. Posiciono orgánicamente tu sitio web en México utilizando las mejores técnicas de optimización conocidas como SEO ¡contáctame!')
 
 @section('main_content')
 <!-- Section Started -->

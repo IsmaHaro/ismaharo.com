@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title')
-    Titulo de Contacto
-@endsection
+@section('title', 'Contáctame Para Posicionar Orgánicamente en Google | Isma Haro')
+
+@section('meta_description', 'Mándame un mensaje de contacto a través del formulario para que empecemos a posicionar tu sitio web en Google')
 
 @section('main_content')
 <!-- Section Started -->

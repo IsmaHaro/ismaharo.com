@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Disallow: /guardar-formulario
+
+Sitemap: https://ismaharo.com/sitemap.xml

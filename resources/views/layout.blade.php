@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="es">
 <head>
 
 	<!-- Meta -->
 	<meta charset="UTF-8">
-    <meta name="robots" content="noindex,nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="description" content="Isma Haro el mejor SEO de Mexico" />
+	<meta name="description" content="@yield('meta_description')" />
 	<meta name="author" content="Isma Haro" />
 
 	<!-- Title -->

@@ -73,7 +73,7 @@
                         <h2 class="title-white">¿Te has preguntado cómo posicionar tu página web en google?</h2>
 
                         <p>
-                            Existen cientos de técnicas y tips para que una página web se posicione en los resultados de búsqueda de Google, hoy te voy a platicar de alguno de ellos.
+                            Existen muchas técnicas y tips para que una página web se posicione en los resultados de búsqueda de Google, hoy te voy a platicar de alguno de ellos.
                         </p>
 
                         <h2 class="title-white">Investigación de Palabras Clave</h2>

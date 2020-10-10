@@ -13,19 +13,35 @@
         @yield('title')
     </title>
 
+    <!--METAS OG (OPEN GRAPH)-->
+    <meta property="og:locale" content="es_MX" />
+	<meta property="og:type" content="@yield('og_type')" />
+	<meta property="og:title" content="@yield('og_title')" />
+	<meta property="og:description" content="@yield('og_description')" />
+	<meta property="og:url" content="@yield('og_url')" />
+	<meta property="og:site_name" content="ismaharo.com" />
+	<meta property="article:publisher" content="https://www.facebook.com/isma.haro.seo" />
+	<meta property="article:published_time" content="@yield('og_published_time')" />
+	<meta property="article:modified_time" content="@yield('og_modified_time')" />
+	<meta property="article:author" content="@yield('og_author')" />
+	<meta property="og:image" content="@yield('og_image')" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="600" />
+
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="css/basic.css" />
-	<link rel="stylesheet" href="css/layout.css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" />
-	<link rel="stylesheet" href="css/animate.css" />
-	<link rel="stylesheet" href="css/jarallax.css" />
-	<link rel="stylesheet" href="css/swiper.css" />
-	<link rel="stylesheet" href="css/fontawesome.css" />
-	<link rel="stylesheet" href="css/brands.css" />
-	<link rel="stylesheet" href="css/solid.css" />
+	<link rel="stylesheet" href="/css/basic.css" />
+	<link rel="stylesheet" href="/css/layout.css" />
+	<link rel="stylesheet" href="/css/magnific-popup.css" />
+	<link rel="stylesheet" href="/css/animate.css" />
+	<link rel="stylesheet" href="/css/jarallax.css" />
+	<link rel="stylesheet" href="/css/swiper.css" />
+	<link rel="stylesheet" href="/css/fontawesome.css" />
+	<link rel="stylesheet" href="/css/brands.css" />
+	<link rel="stylesheet" href="/css/solid.css" />
+
 
 	<!-- Theme Colors
 	<link rel="stylesheet" href="css/theme-colors/blue.css" />
@@ -45,7 +61,7 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	<link rel="shortcut icon" href="/images/favicons/favicon.ico">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -151,19 +167,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 
 	<!-- Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/magnific-popup.js"></script>
-	<script src="js/simpleParallax.js"></script>
-	<script src="js/typed.js"></script>
-	<script src="js/jarallax.js"></script>
-	<script src="js/jarallax-video.js"></script>
-	<script src="js/jarallax-element.js"></script>
-	<script src="js/imagesloaded.pkgd.js"></script>
-	<script src="js/isotope.pkgd.js"></script>
-	<script src="js/swiper.js"></script>
-	<script src="js/grained.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery.validate.js"></script>
+	<script src="/js/magnific-popup.js"></script>
+	<script src="/js/simpleParallax.js"></script>
+	<script src="/js/typed.js"></script>
+	<script src="/js/jarallax.js"></script>
+	<script src="/js/jarallax-video.js"></script>
+	<script src="/js/jarallax-element.js"></script>
+	<script src="/js/imagesloaded.pkgd.js"></script>
+	<script src="/js/isotope.pkgd.js"></script>
+	<script src="/js/swiper.js"></script>
+	<script src="/js/grained.js"></script>
+	<script src="/js/scripts.js"></script>
 
 </body>
 </html>

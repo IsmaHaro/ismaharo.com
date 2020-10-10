@@ -52,4 +52,10 @@ class WebController extends Controller
     {
         return view('sitemap');
     }
+
+
+    public function blogPost1()
+    {
+        return view('blogs.seo.blog-post-1');
+    }
 }

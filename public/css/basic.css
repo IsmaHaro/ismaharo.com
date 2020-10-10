@@ -1027,3 +1027,8 @@ blockquote {
 .title-white{
     color: white;
 }
+
+.important-text{
+    font-weight: bold;
+    color: white;
+}

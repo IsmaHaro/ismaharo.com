@@ -58,4 +58,9 @@ class WebController extends Controller
     {
         return view('blogs.seo.blog-post-1');
     }
+
+    public function SeoService()
+    {
+        return view('seo-service');
+    }
 }

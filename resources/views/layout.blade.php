@@ -114,7 +114,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="top-menu-nav">
 						<div class="menu-topmenu-container">
 							<ul class="menu">
-								<li class="menu-item">
+                                <li class="menu-item {{ Request::is('/') ? 'current-menu-item' : '' }}">
+									<a href="/">Inicio</a>
+								</li>
+                                <li class="menu-item {{ Request::is('servicio-de-seo') ? 'current-menu-item' : '' }}">
+									<a href="/servicio-de-seo">Servicio De SEO</a>
+								</li>
+								<li class="menu-item {{ Request::is('contacto') ? 'current-menu-item' : '' }}">
 									<a href="/contacto">Contacto</a>
 								</li>
 							</ul>

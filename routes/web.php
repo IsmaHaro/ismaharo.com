@@ -28,4 +28,5 @@ Route::get('/contacto'           , 'WebController@contact');
 Route::get('/mapa-del-sitio'     , 'WebController@sitemap');
 Route::post('/guardar-formulario', 'WebController@saveContact');
 Route::get('/servicio-de-seo'    , 'WebController@SeoService');
+Route::get('/posicionamiento-seo', 'WebController@blogCategorySeo');
 Route::get('/posicionamiento-seo/como-hacer-que-mi-pagina-web-aparezca-en-google', 'WebController@blogPost1');

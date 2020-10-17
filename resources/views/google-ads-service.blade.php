@@ -77,7 +77,7 @@
             <div class="bts">
                 <a href="/servicio-de-google-ads#section-contacts" class="btn hover-animated">
                     <span class="circle"></span>
-                    <span class="lnk">Me Interesa El Servicio De Google Ads</span>
+                    <span class="lnk">Me Interesa</span>
                 </a>
             </div>
         </div>

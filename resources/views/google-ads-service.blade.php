@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Servicio De SEO En México | Isma Haro Experto en SEO y SEM')
+@section('title', 'Servicio De Google Ads México | Isma Haro Experto en SEO y SEM')
 
-@section('meta_description', '¿Buscas mejorar el posicionamiento de tu sitio web en Google? Contáctame para que generemos una estrategia de SEO para ti y consigas más clientes')
+@section('meta_description', '¿Buscas obtener resultados tangibles con las herramientas publicitarias de Google? Estás en el lugar correcto, contáctame')
 
 @section('main_content')
 
@@ -20,12 +20,12 @@
     <div class="centrize full-width">
         <div class="vertical-center">
             <div class="started-content">
-                <h1 class="h-title">¿Buscas Servicio de SEO?</h1>
+                <h1 class="h-title">¿Buscas Servicio <br>de Google Ads?</h1>
 
                 <div class="h-subtitles">
                     <div class="h-subtitle typing-bread">
                         <p class="breadcrumbs">
-                            <a href="/">Inicio</a> / Servicio de SEO
+                            <a href="/">Inicio</a> / Servicio de Google Ads
                         </p>
                     </div>
                     <span class="typed-bread"></span>
@@ -45,7 +45,7 @@
     <!-- title -->
     <div class="title">
         <div class="title_inner">
-            <h2 class="title-white">¡Contrata Mi Servicio De SEO Ahora Mismo!</h2>
+            <h2 class="title-white">¡Contrata Mi Servicio De Google Ads Ahora Mismo!</h2>
         </div>
     </div>
 
@@ -59,25 +59,25 @@
         <!-- desc -->
         <div class="desc">
             <p>
-                El impacto del SEO en el mundo actual es crucial para el <span class="important-text">éxito de cualquier sitio web</span>.
+                Las plataformas publicitarias como <span class="important-text">Google o Facebook pueden ser difíciles</span> de entender y complejas de usar.
             </p>
             <p>
-                ¿De qué sirve hacer un sitio web <span class="important-text">muy bonito y que nadie lo vea</span>?
+                Sin embargo en el mundo digital en el que vivimos es muy importante saber aprovecharlas para <span class="important-text">tener resultados</span>.
             </p>
             <p>
-                Bajo esa premisa es como trabajo, para conseguir tráfico y <span class="important-text">resultados</span>.
+                Atraer nuevos clientes, mejorar tu prospección y <span class="important-text">conseguir ventas</span> son las razones por las cuales deberías utilizar Google Ads..
             </p>
             <div class="info-list">
                 <ul>
-                    <li><strong><span class="fas fa-check"></span> Consigue Resultados</strong></li>
-                    <li><strong><span class="fas fa-check"></span> Posiciona Tu Web</strong></li>
-                    <li><strong><span class="fas fa-check"></span> Obtén Tráfico</strong></li>
+                    <li><strong><span class="fas fa-check"></span> Consigue Clientes</strong></li>
+                    <li><strong><span class="fas fa-check"></span> Consigue Ventas</strong></li>
+                    <li><strong><span class="fas fa-check"></span> Mejora Tus Campañas</strong></li>
                 </ul>
             </div>
             <div class="bts">
-                <a href="/servicio-de-seo#section-contacts" class="btn hover-animated">
+                <a href="/servicio-de-google-ads#section-contacts" class="btn hover-animated">
                     <span class="circle"></span>
-                    <span class="lnk">Me Interesa El Servicio De SEO</span>
+                    <span class="lnk">Me Interesa El Servicio De Google Ads</span>
                 </a>
             </div>
         </div>
@@ -94,7 +94,7 @@
         <!-- title -->
         <div class="title">
             <div class="title_inner">
-                <h2 class="title-white">Servicios y Consultoría de SEO</h2>
+                <h2 class="title-white">Servicios y Consultoría de Google Ads</h2>
             </div>
         </div>
 
@@ -105,10 +105,10 @@
                 <div class="service-item content-box">
                     <div class="icon"><span class="fas fa-code"></span></div>
                     <div class="name">
-                        <h3 class="title-white">Análisis de Sitio Web</h3>
+                        <h3 class="title-white">Análisis de Landing Pages</h3>
                     </div>
                     <div class="text">
-                        Primera etapa, se recibe el proyecto y se procede a analizar el sitio web.
+                        Se debe analizar las landing pages con las que se cuentan.
                     </div>
                 </div>
             </div>
@@ -117,10 +117,10 @@
                 <div class="service-item content-box">
                     <div class="icon"><span class="fas fa-chart-bar"></span></div>
                     <div class="name">
-                        <h3 class="title-white">Reporte de Resultados</h3>
+                        <h3 class="title-white">Análisis de Campañas</h3>
                     </div>
                     <div class="text">
-                        Se generá un reporte de resultados con las áreas de oportunidad para mejorar el sitio web
+                        Se estudiará el nicho a pautar, análisis de campañas activas y áreas de oportunidad.
                     </div>
                 </div>
             </div>
@@ -129,10 +129,12 @@
                 <div class="service-item content-box">
                     <div class="icon"><span class="fas fa-project-diagram"></span></div>
                     <div class="name">
-                        <h3 class="title-white">Estrategia de Posicionamiento Web</h3>
+                        <h3 class="title-white">Estrategia de Google Ads</h3>
                     </div>
                     <div class="text">
-                        De acuerdo al análisis y al reporte, se genera una estrategia personalizada que contemple puntos como: Objetivos, Funnel, Google My Business, Captación y Cumplimiento
+                        De acuerdo a los requerimientos, objetivos, presupuesto y recursos, se generará una propuesta totalmente personalizada.
+                        <br>
+                        Con toda la estrategia de pautaje, palabras clave y redes publicitarias en Google.
                     </div>
                 </div>
             </div>
@@ -141,12 +143,12 @@
                 <div class="service-item content-box">
                     <div class="icon"><span class="fas fa-chalkboard-teacher"></span></div>
                     <div class="name">
-                        <h3 class="title-white">Ejecución de SEO On Page / Off Page</h3>
+                        <h3 class="title-white">Preparación y Ejecución De Campañas</h3>
                     </div>
                     <div class="text">
-                        De acuerdo a la estrategia y a los servicios contratados, se procede a la ejecución y optimización del sitio web.
+                        Se procede a configurar las landing pages, optimizar, implementar conversiones y métricas.
                         <br>
-                        Además se procede a indexar el sitio en directorios y otros lugares para conseguir backlinks.
+                        Y se montan las campañas en la plataforma de Google Ads.
                     </div>
                 </div>
             </div>
@@ -155,10 +157,10 @@
                 <div class="service-item content-box">
                     <div class="icon"><span class="fas fa-eye"></span></div>
                     <div class="name">
-                        <h3 class="title-white">Monitoreo de Palabras Clave</h3>
+                        <h3 class="title-white">Monitoreo de Campañas</h3>
                     </div>
                     <div class="text">
-                        Se debe monitorear el sitio web durante la optimización para medir resultados y hacer toma de decisiones
+                        Semanalmente se monitorean las campañas para optimizar palabras clave, negativas, copys y demás.
                     </div>
                 </div>
             </div>
@@ -170,7 +172,9 @@
                         <h3 class="title-white">Reportes y Resultados</h3>
                     </div>
                     <div class="text">
-                        Se realizan reportes ya sea semanales o mensuales dependiendo del contrato, para el análisis y cotejo de resultados con los objetivos del sitio web
+                        Se realizan reportes semanalmente para toma de decisiones rápidas y efectivas.
+                        <br>
+                        Se analizan consecución de resultados, prospectos, ventas y clientes.
                     </div>
                 </div>
             </div>
@@ -191,7 +195,7 @@
         <div class="title">
             <div class="title_inner">
                 <h2 class="title-white">
-                    ¿Por Qué Contratar Servicios de SEO?
+                    ¿Por Qué Contratar Servicios de Google Ads?
                 </h2>
             </div>
         </div>
@@ -201,32 +205,32 @@
             <ul>
                 <li>
                     <div class="name">
-                        <span class="important-text">Consigue Más Clientes</span>
+                        <span class="important-text">¿Llevas Campañas Y Necesitas Ayuda?</span>
                     </div>
                 </li>
                 <li>
                     <div class="name">
-                        <span class="important-text">Aumenta Tus Ventas</span>
+                        <span class="important-text">¿Necesitas Una Asesoría Personalizada?</span>
                     </div>
                 </li>
                 <li>
                     <div class="name">
-                        <span class="important-text">Disminuir Costos Publicitarios</span>
+                        <span class="important-text">¿Has Perdido Mucho Dinero en Google Ads?</span>
                     </div>
                 </li>
                 <li>
                     <div class="name">
-                        <span class="important-text">Aparecer En Los Primeros Resultados Google</span>
+                        <span class="important-text">¡Obtén nuevos clientes y ventas!</span>
                     </div>
                 </li>
                 <li>
                     <div class="name">
-                        <span class="important-text">Ten Un Sitio Web Profesional Y Eficiente</span>
+                        <span class="important-text">Configura Palabras Clave Como Un Profesional</span>
                     </div>
                 </li>
                 <li>
                     <div class="name">
-                        <span class="important-text">Consolida Tu Marca En El Mundo Digital</span>
+                        <span class="important-text">Aprovecha Al Máximo La Publicidad En Google</span>
                     </div>
                 </li>
             </ul>
@@ -242,7 +246,7 @@
 
         <!-- title -->
         <div class="title">
-            <div class="title_inner">¡Llámame Ahora Y Consigue Más Clientes Con Las Campañas En Google Ads!</div>
+            <div class="title_inner">¡Llámame Ahora Y Consigue Más Clientes Con Tu Sitio Web!</div>
         </div>
 
         <!-- contacts items -->

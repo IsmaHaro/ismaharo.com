@@ -1032,3 +1032,7 @@ blockquote {
     font-weight: bold;
     color: white;
 }
+
+.title-green{
+    color: #4bffa5 !important;
+}

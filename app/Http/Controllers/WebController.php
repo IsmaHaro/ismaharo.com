@@ -64,10 +64,14 @@ class WebController extends Controller
         return view('seo-service');
     }
 
+    public function GoogleAdsService()
+    {
+        return view('google-ads-service');
+    }
+
 
     public function blogCategorySeo()
     {
-dd("hola");
         return view('blogs.blog-category-seo');
     }
 }

@@ -13,20 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-//
-//
-//Route::get('/contacto', function () {
-//    return phpinfo();
-//});
 
+/*
+ * RUTAS GENERALES
+ */
+Route::get('/'                      , 'WebController@main');
+Route::get('/contacto'              , 'WebController@contact');
+Route::get('/mapa-del-sitio'        , 'WebController@sitemap');
+Route::post('/guardar-formulario'   , 'WebController@saveContact');
 
-Route::get('/'                   , 'WebController@main');
-Route::get('/contacto'           , 'WebController@contact');
-Route::get('/mapa-del-sitio'     , 'WebController@sitemap');
-Route::post('/guardar-formulario', 'WebController@saveContact');
-Route::get('/servicio-de-seo'    , 'WebController@SeoService');
-Route::get('/posicionamiento-seo', 'WebController@blogCategorySeo');
+/*
+ * RUTAS DE SERVICIOS
+ */
+Route::get('/servicio-de-seo'       , 'WebController@SeoService');
+Route::get('/servicio-de-google-ads', 'WebController@GoogleAdsService');
+
+/*
+ * RUTAS DE POSICIONAMIENTO SEO BLOG
+ */
+Route::get('/posicionamiento-seo'   , 'WebController@blogCategorySeo');
 Route::get('/posicionamiento-seo/como-hacer-que-mi-pagina-web-aparezca-en-google', 'WebController@blogPost1');

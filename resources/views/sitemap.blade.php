@@ -26,6 +26,12 @@
                     <div class="name"><a href="/servicio-de-seo">Servicio De SEO En México</a></div>
                 </li>
                 <li>
+                    <div class="name"><a href="/servicio-de-google-ads">Servicio De Google Ads</a></div>
+                </li>
+                <li>
+                    <div class="name"><a href="/posicionamiento-seo">Aprende Lo Mejor De Posicionamiento Web y SEO</a></div>
+                </li>
+                <li>
                     <div class="name"><a href="/posicionamiento-seo/como-hacer-que-mi-pagina-web-aparezca-en-google">¿Cómo hacer que mi página web aparezca en Google?</a></div>
                 </li>
                 <li>

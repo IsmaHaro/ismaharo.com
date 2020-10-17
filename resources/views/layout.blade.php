@@ -120,6 +120,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li class="menu-item {{ Request::is('servicio-de-seo') ? 'current-menu-item' : '' }}">
 									<a href="/servicio-de-seo">Servicio De SEO</a>
 								</li>
+                                <li class="menu-item {{ Request::is('servicio-de-google-ads') ? 'current-menu-item' : '' }}">
+									<a href="/servicio-de-google-ads">Servicio De Google Ads</a>
+								</li>
+                                <li class="menu-item menu-item-has-children {{ Request::is('posicionamiento-seo') ? 'current-menu-item' : '' }}">
+									<a>Blog</a>
+									<ul class="sub-menu">
+										<li class="menu-item"><a href="/posicionamiento-seo">Posicionamiento SEO</a></li>
+									</ul>
+								</li>
 								<li class="menu-item {{ Request::is('contacto') ? 'current-menu-item' : '' }}">
 									<a href="/contacto">Contacto</a>
 								</li>

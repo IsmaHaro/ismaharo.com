@@ -9,7 +9,7 @@
 @section('og_url'           , 'https://ismaharo.com/posicionamiento-seo/como-hacer-que-mi-pagina-web-aparezca-en-google')
 @section('og_published_time', '2020-10-02')
 @section('og_modified_time' , '2020-10-02')
-@section('og_image'         , 'https://ismaharo.com/posicionamiento-seo/como-hacer-que-mi-página-web-aparezca-en-google.png')
+@section('og_image'         , 'https://ismaharo.com/images/posicionamiento-seo/como-hacer-que-mi-página-web-aparezca-en-google.png')
 
 @section('main_content')
 <!-- Section Started -->
@@ -29,7 +29,7 @@
                 <div class="h-subtitles">
                     <div class="h-subtitle typing-bread">
                         <p class="breadcrumbs">
-                            <a href="index.html">Inicio</a> / <a href="#">Posicionamiento SEO</a> / ¿Cómo hacer que mi página web aparezca en Google?
+                            <a href="index.html">Inicio</a> / <a href="/posicionamiento-seo">Posicionamiento SEO</a> / ¿Cómo hacer que mi página web aparezca en Google?
                         </p>
                     </div>
                     <span class="typed-bread"></span>
@@ -65,7 +65,7 @@
                         <div class="gallery-item">
                             <p>
                                 <a href="images/work1.jpg">
-                                    <img src="/posicionamiento-seo/como-hacer-que-mi-página-web-aparezca-en-google.png" alt="¿Cómo hacer que mi página web aparezca en Google? SEO" />
+                                    <img src="/images/posicionamiento-seo/como-hacer-que-mi-página-web-aparezca-en-google.png" alt="¿Cómo hacer que mi página web aparezca en Google? SEO" />
                                 </a>
                             </p>
                         </div>
@@ -150,7 +150,7 @@
 
                     <!-- details -->
                     <ul class="details-list">
-                        <li><strong>Categorías:</strong> Posicionamiento Web y SEO</li>
+                        <li><strong>Categorías:</strong> <a href="/posicionamiento-seo">Posicionamiento Web y SEO</a></li>
                         <li><strong>Fecha:</strong> 3 de Octubre 2020</li>
                         <li><strong>Autor:</strong> Isma Haro Experto en SEO</li>
                     </ul>
@@ -159,6 +159,49 @@
             </div>
 
         </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<!-- Section About -->
+<div class="section about" id="section-about">
+
+    <!-- title -->
+    <div class="title">
+        <div class="title_inner">
+            <h2 class="title-green">¡Contrata Mi Servicio De SEO Ahora Mismo!</h2>
+        </div>
+    </div>
+
+    <div class="content content-box">
+
+        <!-- image -->
+        <div class="image">
+            <img src="/images/isma-haro-experto-en-seo-mexico.jpg" alt="" />
+        </div>
+
+        <!-- desc -->
+        <div class="desc">
+            <p>
+                Soy Ismael Haro experto en SEO, Diseño web y Google Ads.
+                <br>
+                ¡Contrata Mi Consultoría de SEO Ahora Mismo!
+            </p>
+            <div class="info-list">
+                <ul>
+                    <li><strong><span class="fas fa-check"></span> Consigue Resultados</strong></li>
+                    <li><strong><span class="fas fa-check"></span> Posiciona Tu Web</strong></li>
+                    <li><strong><span class="fas fa-check"></span> Obtén Tráfico</strong></li>
+                </ul>
+            </div>
+            <div class="bts">
+                <a href="/servicio-de-seo" class="btn hover-animated">
+                    <span class="circle"></span>
+                    <span class="lnk">Me Interesa El Servicio De SEO</span>
+                </a>
+            </div>
+        </div>
+
         <div class="clear"></div>
     </div>
 </div>

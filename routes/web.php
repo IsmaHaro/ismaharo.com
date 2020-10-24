@@ -33,3 +33,10 @@ Route::get('/servicio-de-google-ads', 'WebController@GoogleAdsService');
  */
 Route::get('/posicionamiento-seo'   , 'WebController@blogCategorySeo');
 Route::get('/posicionamiento-seo/como-hacer-que-mi-pagina-web-aparezca-en-google', 'WebController@blogPost1');
+
+
+/*
+ * RUTAS DE GOOGLE ADS BLOG
+ */
+Route::get('/google-ads', 'WebController@blogCategoryGoogleAds');
+Route::get('/google-ads/como-anunciarme-en-google-ads', 'WebController@blogPostGoogleAds1');

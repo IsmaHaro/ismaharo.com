@@ -74,4 +74,15 @@ class WebController extends Controller
     {
         return view('blogs.blog-category-seo');
     }
+
+
+    public function blogCategoryGoogleAds()
+    {
+        return view('blogs.blog-category-google-ads');
+    }
+
+    public function blogPostGoogleAds1()
+    {
+        return view('blogs.googleads.blog-post-1');
+    }
 }

@@ -127,6 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<a>Blog</a>
 									<ul class="sub-menu">
 										<li class="menu-item"><a href="/posicionamiento-seo">Posicionamiento SEO</a></li>
+										<li class="menu-item"><a href="/google-ads">Todo Sobre Google Ads</a></li>
 									</ul>
 								</li>
 								<li class="menu-item {{ Request::is('contacto') ? 'current-menu-item' : '' }}">

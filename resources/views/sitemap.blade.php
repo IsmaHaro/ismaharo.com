@@ -35,6 +35,12 @@
                     <div class="name"><a href="/posicionamiento-seo/como-hacer-que-mi-pagina-web-aparezca-en-google">¿Cómo hacer que mi página web aparezca en Google?</a></div>
                 </li>
                 <li>
+                    <div class="name"><a href="/google-ads">Todo lo que deberías saber de Google Ads</a></div>
+                </li>
+                <li>
+                    <div class="name"><a href="/google-ads/como-anunciarme-en-google-ads">¿Cómo anunciarme en Google Ads?</a></div>
+                </li>
+                <li>
                     <div class="name"><a href="/contacto">Contacto</a></div>
                 </li>
             </ul>

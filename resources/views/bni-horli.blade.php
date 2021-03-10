@@ -10,7 +10,7 @@
 @section('og_url'           , 'https://ismaharo.com/bni/horli')
 @section('og_published_time', '2021-02-23')
 @section('og_modified_time' , '2021-02-23')
-@section('og_image'         , 'https://ismaharo.com/images/experto-seo.jpg')
+@section('og_image'         , 'https://ismaharo.com/images/experto-seo.png')
 
 @section('main_content')
 

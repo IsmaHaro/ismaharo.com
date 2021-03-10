@@ -4,6 +4,14 @@
 
 @section('meta_description', 'Contenido de HORLI Para Biografía de BNI')
 
+@section('og_type'          , 'article')
+@section('og_title'         , 'Ismael Haro | BNI HORLI')
+@section('og_description'   , 'Soy Ismael Haro, Director de Pagina.MX y Capmega, profesional y experto en SEO, desarrollo web y Google Ads')
+@section('og_url'           , 'https://ismaharo.com/bni/horli')
+@section('og_published_time', '2021-02-23')
+@section('og_modified_time' , '2021-02-23')
+@section('og_image'         , 'https://ismaharo.com/images/experto-seo.jpg')
+
 @section('main_content')
 
 

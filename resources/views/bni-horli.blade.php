@@ -81,6 +81,63 @@
 </div>
 
 
+<!-- Works -->
+<div class="section works" id="section-portfolio">
+    <div class="content">
+
+        <!-- title -->
+        <div class="title">
+            <div class="title_inner">
+                <h2 class="title-white">Mis Empresas</h2>
+            </div>
+        </div>
+
+        <!-- portfolio items -->
+        <div class="box-items portfolio-items">
+
+            <div class="box-item f-links"> <!-- add class "animate-to-page" if need animated transition to page and delete target="_blank" -->
+                <div class="image">
+                    <a href="https://pagina.mx" target="_blank" class="has-popup-link hover-animated">
+                        <img src="/images/pagina.jpg" class="wp-post-image" alt="Pagina.MX Dominios, Hosting Web y Correos Corporativos" />
+                        <span class="info circle">
+                            <span class="centrize full-width">
+                                <span class="vertical-center">
+                                    <span class="icon fas fa-link"></span>
+                                    <span class="desc">
+                                        <span class="category">Pagina.MX</span>
+                                        <span class="name">Dominios, Hosting Web y Correos Corporativos</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box-item f-links"> <!-- add class "animate-to-page" if need animated transition to page and delete target="_blank" -->
+                <div class="image">
+                    <a href="https://capmega.com" target="_blank" class="has-popup-link hover-animated">
+                        <img src="/images/capmega.jpg" class="wp-post-image" alt="Capmega Desarrollo de Software y SEO" />
+                        <span class="info circle">
+                            <span class="centrize full-width">
+                                <span class="vertical-center">
+                                    <span class="icon fas fa-link"></span>
+                                    <span class="desc">
+                                        <span class="category">Capmega</span>
+                                        <span class="name">Desarrollo de Software y SEO</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+
 <!-- Section Service -->
 <div class="section service" id="section-services">
     <div class="content">

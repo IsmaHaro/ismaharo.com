@@ -53,7 +53,7 @@
 
         <!-- image -->
         <div class="image">
-            <img src="/images/isma-haro-experto-en-seo-mexico.jpg" alt="" />
+            <img class="profile-img" src="/images/experto-seo.jpg" alt="Experto Google Ads en México" />
         </div>
 
         <!-- desc -->

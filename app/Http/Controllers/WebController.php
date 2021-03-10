@@ -69,6 +69,11 @@ class WebController extends Controller
         return view('google-ads-service');
     }
 
+    public function bniHorli()
+    {
+        return view('bni-horli');
+    }
+
 
     public function blogCategorySeo()
     {

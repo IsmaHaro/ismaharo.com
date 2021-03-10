@@ -1,0 +1,8 @@
+.profile-img{
+    border-radius: 50%;
+}
+
+.info-list.block li{
+    display: block !important;
+    width: 100% !important;
+}

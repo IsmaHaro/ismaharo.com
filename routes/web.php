@@ -40,3 +40,8 @@ Route::get('/posicionamiento-seo/como-hacer-que-mi-pagina-web-aparezca-en-google
  */
 Route::get('/google-ads', 'WebController@blogCategoryGoogleAds');
 Route::get('/google-ads/como-anunciarme-en-google-ads', 'WebController@blogPostGoogleAds1');
+
+/*
+ * BNI
+ */
+Route::get('/bni/horli', 'WebController@bniHorli');

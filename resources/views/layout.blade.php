@@ -52,9 +52,12 @@
 	<link rel="stylesheet" href="css/theme-colors/red.css" />
 	<link rel="stylesheet" href="css/theme-colors/beige.css" />
 	<link rel="stylesheet" href="css/theme-colors/green_light.css" />
-	<link rel="stylesheet" href="css/theme-colors/yellow.css" />
+
 	<link rel="stylesheet" href="css/theme-colors/yellow_light.css" />
 	-->
+
+    <link rel="stylesheet" href="/css/theme-colors/yellow.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
 
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
